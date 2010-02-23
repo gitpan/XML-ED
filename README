@@ -1,0 +1,14 @@
+NAME
+    XML::ED - A process to impliemtent editing of xml files.
+
+VERSION
+    v0.0.1
+
+SYNOPSIS
+
+This release it mostly to check that the parser will complile and run on 
+different computers.
+
+AUTHOR
+    G. Allen Morris III <gam3@gam3.net>
+

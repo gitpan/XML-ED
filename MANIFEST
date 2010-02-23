@@ -1,0 +1,16 @@
+lib/XML/ED/Bare.pm
+lib/XML/ED/Bare.xs
+Build.PL
+Changes
+MANIFEST
+META.yml
+lib/XML/ED.pm
+lib/XML/ED/parser.c
+lib/XML/ED/parser.h
+README
+t/Basic.t
+t/Pod_Coverage.t
+t/Pod.t
+t/UTF8_Values.t
+t/UTF8_Attributes.t
+t/test.xml
