@@ -1,7 +1,7 @@
 
 package XML::ED;
 
-our $VERSION = 'v0.0.1';
+our $VERSION = 'v0.0.2';
 
 =head1 NAME
 
@@ -9,9 +9,7 @@ XML::ED - A process to impliemtent editing of xml files.
 
 =head1 VERSION
 
-v0.0.1
-
-=head1 METHODS
+v0.0.2
 
 =over 4
 
@@ -48,6 +46,8 @@ sub parse
     return $b;
 }
 
+
+
 1;
 
 __END__
@@ -56,36 +56,26 @@ __END__
 
 =head1 AUTHOR
 
-  
 G. Allen Morris III <gam3@gam3.net>
 
-=head1 LICENSE
+=head1 COPYRIGHT
 
-  Copyright (C) 2010 G. Allen Morris III
+Copyright (C) 2010 G. Allen Morris III.  All rights reserved.
 
-  Portions may be Copyright (C) 2008 David Helkowski
-  
-  This program is free software; you can redistribute it and/or
-  modify it under the terms of the GNU General Public License as
-  published by the Free Software Foundation; either version 2 of the
-  License, or (at your option) any later version.  You may also can
-  redistribute it and/or modify it under the terms of the Perl
-  Artistic License.
-  
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+This library is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<XML::ED>, perl(1), L<XML::Bare>, L<XML::XPath>
+perl(1), L<XML::ED::Bare>, L<XML::Node>, L<XML::NodeSet>,
+L<XML::Bare>, L<XML::XPath>
 
-L<http://www.gam3.org>
+F<META.yml> Specification:
 
-L<http://www.w3.org/TR/xpath20/>
+L<http://www.gam3.org/>
 
 =cut
+
 
 [30]    	ForwardAxis 	   ::=    	("child" "::")
 | ("descendant" "::")
@@ -100,5 +90,4 @@ L<http://www.w3.org/TR/xpath20/>
 | ("preceding-sibling" "::")
 | ("preceding" "::")
 | ("ancestor-or-self" "::")
-
 
